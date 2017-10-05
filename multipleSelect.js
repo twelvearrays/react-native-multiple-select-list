@@ -125,6 +125,7 @@ export default class CustomMultiPicker extends Component {
             placeholder={this.props.placeholder}
             placeholderTextColor={this.props.placeholderTextColor}
             underlineColorAndroid={'transparent'}
+            autoFocus={true}
           />
         </View>}
         <ScrollView
