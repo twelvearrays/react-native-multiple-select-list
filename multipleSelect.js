@@ -129,6 +129,7 @@ export default class CustomMultiPicker extends Component {
         </View>}
         <ScrollView
           style={{ padding: 5, height: this.props.scrollViewHeight }}
+          keyboardShouldPersistTaps={true}
         >
           {labels.map((label, index) => {
             const itemKey = returnValue == "label" ? label : values[index]
